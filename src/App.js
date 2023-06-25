@@ -1,10 +1,12 @@
+import Header from "./Header";
+import Lesson from "./Lesson";
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <h1>React New Project</h1>
+   <Header />
+   <Lesson/>
     </div>
   );
 }
